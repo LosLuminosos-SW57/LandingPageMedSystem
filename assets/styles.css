@@ -154,7 +154,7 @@ section{
     padding: 1rem;
 }
 
-**/ABOUT**/
+/*ABOUT*/
 .text{
     text-align: justify;
 }
@@ -220,4 +220,36 @@ section{
     color: var(--light-black);
     font-size: 1.6rem;
     padding-top: 1rem;
+}
+
+/*PRODUCT*/
+.product .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(27rem, 1fr));
+    gap: 1.5rem;
+}
+
+.product .box-container .box{
+    padding: 4rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+}
+
+.product .box-container .box img {
+    height: 10rem;
+}
+
+.product .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.product .box-container .box p{
+    color: var(--light-black);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 1.8;
 }
